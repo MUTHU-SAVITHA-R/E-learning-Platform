@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f4f6f8;
+}
+
+/* Navbar */
+.navbar {
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  background: #1e293b;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.nav-links  {
+  display:flex;
+ gap:20px;
+  align-items: center;
+  margin-right: 50px ;
+  cursor: pointer;
+}
+
+/* Intro section */
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  margin-top: 100px;
+  background: linear-gradient(120deg, #eef2ff, #e0f2fe);
+}
+
+.intro-text {
+  width: 50%;
+}
+
+.intro-text h1 {
+  font-size: 40px;
+  color: #1e293b;
+}
+
+.intro-text p {
+  font-size: 18px;
+  color: #475569;
+  margin-top: 10px;
+}
+
+.intro img {
+  width: 40%;
+}
+
+/* Main layout */
+.main {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+/* Left panel */
+.left {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Course list & progress */
+.course-list,
+.progress {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* Video area */
+.video {
+  width: 70%;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* Course item */
+.course {
+  padding: 10px;
+  margin: 10px 0;
+  background: #eef2ff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Video */
+iframe {
+  width: 100%;
+  height: 300px;
+}
+
+/* Button */
+button {
+  margin-top: 10px;
+  padding: 10px;
+  background: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Progress bar */
+.bar {
+  height: 15px;
+  background: #ddd;
+  border-radius: 10px;
+}
+
+.fill {
+  height: 100%;
+  background: #4f46e5;
+  border-radius: 10px;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .intro {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .intro-text,
+  .intro img {
+    width: 100%;
+  }
+
+  .main {
+    flex-direction: column;
+  }
+
+  .left,
+  .video {
+    width: 100%;
+  }
+}
