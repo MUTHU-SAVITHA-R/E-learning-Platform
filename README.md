@@ -34,3 +34,7 @@ ProgressTracker.jsx – Tracks learning progress
 style.css – Application styling
 
 **Output**
+<img width="1888" height="878" alt="Image" src="https://github.com/user-attachments/assets/ec579889-ac40-49f0-964b-66d2213bf4b3" />
+<img width="1896" height="877" alt="Image" src="https://github.com/user-attachments/assets/3898f452-a114-4e79-984f-b4db797182ef" />
+<img width="1900" height="876" alt="Image" src="https://github.com/user-attachments/assets/7077f72e-d239-4dd2-9269-dea85cefcaed" />
+<img width="1896" height="881" alt="Image" src="https://github.com/user-attachments/assets/7e6b8487-d0bf-4837-8d77-d8b63ee04128" />
