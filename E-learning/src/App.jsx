@@ -25,10 +25,10 @@ function App() {
     <>
       <Navbar />
 
-      {/* Intro Section */}
+     
       <Intro />
 
-      {/* Course Section */}
+      
       <div className="main" id="courses">
   <div className="left">
     <CourseList courses={courses} setIndex={setCurrentIndex} />
